@@ -1,0 +1,15 @@
+# Book settings
+title: Demos for UCLAx Webinar Intro to Python
+author: Benjamin J. Winjum
+copyright: '2021'
+
+# Launch button settings
+repository:
+  url: https://github.com/benjum/uclax-intro-python
+  path_to_book: book
+  branch: main
+
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  thebe: true
+
