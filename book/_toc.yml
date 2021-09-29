@@ -1,4 +1,10 @@
 format: jb-book
 root: landing
-chapters:
-- file: Start-Here
+parts:
+  - caption: Intro to Python
+    chapters:
+    - file: Start-Here
+  - caption: Data Viz with Python
+    chapters:
+    - file: Matplotlib.ipynb
+    - file: Pandas-Seaborn.ipynb

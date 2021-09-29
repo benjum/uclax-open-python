@@ -1,4 +1,6 @@
-#  UCLAxOpen Intro to Python
+#  UCLAxOpen Python
 
-This repository is maintained by Ben Winjum for use in an Open Webinar "Introduction to Python" for UCLA Extension.
+This repository is maintained by Ben Winjum for use in Open Webinars for UCLA Extension.
+* Intro to Python
+* Data Visualization with Python
 

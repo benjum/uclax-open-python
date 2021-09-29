@@ -1,5 +1,5 @@
-# Jupyter Book for UCLAx Webinar Intro to Python
+# Jupyter Book for UCLAx Open Webinars on Python
 
 ## Benjamin John Winjum
 
-This text is intended to compliment a short intro to Python.
+This text is intended to compliment short intro webinars on Python.
