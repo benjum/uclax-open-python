@@ -13,3 +13,7 @@ launch_buttons:
   binderhub_url: "https://mybinder.org"
   thebe: true
 
+sphinx:
+  config:
+    html_extra_path: ['assets']
+
