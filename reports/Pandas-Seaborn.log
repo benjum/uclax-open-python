@@ -22,10 +22,10 @@ get_symbol('AAPL')
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mJSONDecodeError[0m                           Traceback (most recent call last)
-[0;32m/tmp/ipykernel_1693/1284924527.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_1689/1284924527.py[0m in [0;36m<module>[0;34m[0m
 [0;32m----> 1[0;31m [0mget_symbol[0m[0;34m([0m[0;34m'AAPL'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0m
-[0;32m/tmp/ipykernel_1693/2586890709.py[0m in [0;36mget_symbol[0;34m(symbol)[0m
+[0;32m/tmp/ipykernel_1689/2586890709.py[0m in [0;36mget_symbol[0;34m(symbol)[0m
 [1;32m      2[0m [0;32mdef[0m [0mget_symbol[0m[0;34m([0m[0msymbol[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
 [1;32m      3[0m     [0murl[0m [0;34m=[0m [0;34m"http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={}&region=1&lang=en"[0m[0;34m.[0m[0mformat[0m[0;34m([0m[0msymbol[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0;32m----> 4[0;31m     [0mresult[0m [0;34m=[0m [0mrequests[0m[0;34m.[0m[0mget[0m[0;34m([0m[0murl[0m[0;34m)[0m[0;34m.[0m[0mjson[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
