@@ -88,6 +88,18 @@
 </ul>
 <p class="caption">
  <span class="caption-text">
+  Intro to Python
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../IntroPythonProgramming.html">
+   Intro Python Programming
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
   Data Viz with Python
  </span>
 </p>
@@ -233,10 +245,10 @@
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">JSONDecodeError</span><span class="g g-Whitespace">                           </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1710</span><span class="o">/</span><span class="mf">1052045990.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1788</span><span class="o">/</span><span class="mf">1052045990.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
 <span class="ne">----&gt; </span><span class="mi">1</span> <span class="nb">print</span><span class="p">(</span><span class="n">get_symbol</span><span class="p">(</span><span class="s1">&#39;AAPL&#39;</span><span class="p">))</span>
 
-<span class="nn">/tmp/ipykernel_1710/1845044511.py</span> in <span class="ni">get_symbol</span><span class="nt">(symbol)</span>
+<span class="nn">/tmp/ipykernel_1788/1845044511.py</span> in <span class="ni">get_symbol</span><span class="nt">(symbol)</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="k">def</span> <span class="nf">get_symbol</span><span class="p">(</span><span class="n">symbol</span><span class="p">):</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span>     <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://d.yimg.com/autoc.finance.yahoo.com/autoc?query=</span><span class="si">{}</span><span class="s2">&amp;region=1&amp;lang=en&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">symbol</span><span class="p">)</span>
 <span class="ne">----&gt; </span><span class="mi">4</span>     <span class="n">result</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
