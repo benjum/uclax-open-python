@@ -3,7 +3,7 @@ root: landing
 parts:
   - caption: Intro to Python
     chapters:
-    - file: Start-Here
+    - file: IntroPythonProgramming.ipynb
   - caption: Data Viz with Python
     chapters:
     - file: Matplotlib.ipynb
